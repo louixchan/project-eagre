@@ -1,0 +1,28 @@
+﻿using System;
+using eagreLibrary;
+
+namespace eagre
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+
+            Asset vix = new Asset();
+            vix.readPricesFromJson(@"C:\Users\lchan1\Downloads\vixcurrent.json");
+            Console.WriteLine(vix.getPrice().ToString());
+
+            Asset gold = new Asset();
+            gold.readPricesFromJson(@"C:\Users\lchan1\Downloads\goldcurrent.json");
+            Console.WriteLine(gold.getPrice().ToString());
+
+            DateTime start = vix.getEarliestDate() > gold.getEarliestDate() ? vix.getEarliestDate() : gold.getEarliestDate();
+
+            List<Decimal> vixMACD = vix.getMACD();
+            List<Decimal> vixSignal = TechnicalAnalysis.GetEMA(9, vixMACD);
+
+            Console.ReadLine();
+        }
+    }
+}

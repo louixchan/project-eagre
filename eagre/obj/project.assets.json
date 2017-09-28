@@ -821,6 +821,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "eagreLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "bin/placeholder/eagreLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eagreLibrary.dll": {}
+        }
       }
     }
   },
@@ -3556,12 +3569,17 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "eagreLibrary/1.0.0": {
+      "type": "project",
+      "path": "../eagreLibrary/eagreLibrary/eagreLibrary.csproj",
+      "msbuildProject": "../eagreLibrary/eagreLibrary/eagreLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.NETCore.App >= 2.0.0",
-      "Newtonsoft.Json >= 10.0.3"
+      "eagreLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3574,11 +3592,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\lchan1\\Documents\\Github\\project-eagre\\eagreLibrary\\eagreLibrary\\eagreLibrary.csproj",
-      "projectName": "eagreLibrary",
-      "projectPath": "C:\\Users\\lchan1\\Documents\\Github\\project-eagre\\eagreLibrary\\eagreLibrary\\eagreLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\lchan1\\Documents\\Github\\project-eagre\\eagre\\eagre.csproj",
+      "projectName": "eagre",
+      "projectPath": "C:\\Users\\lchan1\\Documents\\Github\\project-eagre\\eagre\\eagre.csproj",
       "packagesPath": "C:\\Users\\lchan1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lchan1\\Documents\\Github\\project-eagre\\eagreLibrary\\eagreLibrary\\obj\\",
+      "outputPath": "C:\\Users\\lchan1\\Documents\\Github\\project-eagre\\eagre\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3596,7 +3614,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\lchan1\\Documents\\Github\\project-eagre\\eagreLibrary\\eagreLibrary\\eagreLibrary.csproj": {
+              "projectPath": "C:\\Users\\lchan1\\Documents\\Github\\project-eagre\\eagreLibrary\\eagreLibrary\\eagreLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -3609,14 +3631,9 @@
       "netcoreapp2.0": {
         "dependencies": {
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
-          },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "10.0.3"
           }
         },
         "imports": [

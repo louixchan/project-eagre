@@ -1,0 +1,13 @@
+C:\Users\lchan1\Documents\Github\project-eagre\eagre\bin\Debug\netcoreapp2.0\eagre.deps.json
+C:\Users\lchan1\Documents\Github\project-eagre\eagre\bin\Debug\netcoreapp2.0\eagre.runtimeconfig.json
+C:\Users\lchan1\Documents\Github\project-eagre\eagre\bin\Debug\netcoreapp2.0\eagre.runtimeconfig.dev.json
+C:\Users\lchan1\Documents\Github\project-eagre\eagre\bin\Debug\netcoreapp2.0\eagre.dll
+C:\Users\lchan1\Documents\Github\project-eagre\eagre\bin\Debug\netcoreapp2.0\eagre.pdb
+C:\Users\lchan1\Documents\Github\project-eagre\eagre\bin\Debug\netcoreapp2.0\eagreLibrary.dll
+C:\Users\lchan1\Documents\Github\project-eagre\eagre\bin\Debug\netcoreapp2.0\eagreLibrary.pdb
+C:\Users\lchan1\Documents\Github\project-eagre\eagre\obj\Debug\netcoreapp2.0\eagre.csprojResolveAssemblyReference.cache
+C:\Users\lchan1\Documents\Github\project-eagre\eagre\obj\Debug\netcoreapp2.0\eagre.csproj.CoreCompileInputs.cache
+C:\Users\lchan1\Documents\Github\project-eagre\eagre\obj\Debug\netcoreapp2.0\eagre.AssemblyInfoInputs.cache
+C:\Users\lchan1\Documents\Github\project-eagre\eagre\obj\Debug\netcoreapp2.0\eagre.AssemblyInfo.cs
+C:\Users\lchan1\Documents\Github\project-eagre\eagre\obj\Debug\netcoreapp2.0\eagre.dll
+C:\Users\lchan1\Documents\Github\project-eagre\eagre\obj\Debug\netcoreapp2.0\eagre.pdb
